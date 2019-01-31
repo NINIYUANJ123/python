@@ -1,0 +1,5 @@
+string = input("输入一个字符串:")
+fp = open("test", "w")
+fp.write(string.upper())
+fp.close()
+print('\n')
